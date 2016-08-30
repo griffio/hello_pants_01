@@ -2,6 +2,8 @@
 
 ## [pants build](http://pantsbuild.github.io/jvm_projects.html)
 
+Simplest Java example with multiple BUILD files, tests and transitive dependencies.
+
 [install](http://pantsbuild.github.io/install.html)
 
 ~~~
