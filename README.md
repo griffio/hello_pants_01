@@ -10,4 +10,5 @@ curl -L -O https://pantsbuild.github.io/setup/pants && chmod +x pants && touch p
 
 ~~~ bash
 ./pants run src/main/java:main
+./pants test.junit --output-mode=ALL src/test/java:tests
 ~~~
