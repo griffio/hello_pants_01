@@ -3,3 +3,4 @@
 /.pants.workdir.file_lock
 /.pids
 /.idea
+/dist
