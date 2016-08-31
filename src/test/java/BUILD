@@ -1,6 +1,7 @@
 junit_tests(name='tests',
-  sources=globs('**/*.java'),
+  sources=['griffio/Tests.java'],
   dependencies=[
-    'thirdparty:google-test'
+    'thirdparty:google-test',
+		'src/hello/java:hello-lib'
   ]
 )

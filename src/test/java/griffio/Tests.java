@@ -8,6 +8,7 @@ public class Tests {
 
   @Test
   public void expect_b() {
-    assertThat("abc").contains("b");
+    Hello pants = new Hello("Pants");
+    assertThat(pants.toString()).contains("s");
   }
 }
