@@ -1,7 +1,8 @@
-junit_tests(name='tests',
+junit_tests(
+  name='tests',
   sources=['griffio/Tests.java'],
   dependencies=[
-        'thirdparty:google-test',
-        'src/hello/java:hello-lib'
+    'thirdparty:google-test',
+    'src/thrift/java:geo-lib',
   ]
 )

@@ -1,8 +1,10 @@
 package griffio;
 
+import griffio.geo.Coordinates;
+
 public class Main {
 
   public static void main(String... args) {
-    System.out.println(String.format("It's %s", new Hello("Pants")));
+    new Coordinates(-34.252229, -58.829800).setElevation(-0.1);
   }
 }
